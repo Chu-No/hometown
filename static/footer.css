@@ -18,16 +18,29 @@
 
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 #footerLeft > #footerLeftTop {
     background-color: royalblue;
+
+    margin-bottom: 10px;
+}
+
+#footerLeftTop > span {
+    margin-right: 10px;
 }
 
 #footerLeft > #footerLeftBottom {
     background-color: yellowgreen;
+
+    color: gray;
 }
 
-#footerRight > .footerRightBox {
-    background-color: gold;
+#footerLeftBottom > div {
+    margin-bottom: 10px;
+}
+
+#footerRight > span {
+    margin-left: 10px;
 }

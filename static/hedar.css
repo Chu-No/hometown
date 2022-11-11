@@ -8,18 +8,24 @@
 #header > #headerLeft {
     background-color: violet;
 
-    flex-basis: 40%;
+    flex-basis: 30%;
+}
+
+#headerLeft > img {
+    width: 95%;
+    max-width: 200px;
 }
 
 #header > #headerRight {
     background-color:blueviolet;
 
-    flex-basis: 40%;
+    flex-basis: 30%;
     
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
-#headerRight > .headerRightBox {
-    background-color: tan;
+#headerRight > span {
+    margin-left: 20px;
 }
