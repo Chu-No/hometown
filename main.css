@@ -1,0 +1,109 @@
+#main {
+    background-color: aqua;
+}
+
+#main > #introTop {
+    background-color: red;
+}
+
+#introTop > #introTopTop { 
+    background-color: rgb(164, 102, 9);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#introTopTop > #introTopTopTop {
+    background-color: cornflowerblue;
+
+    width: 80%;
+}
+
+#introTopTop > #introTopTopMiddle {
+    background-color: rgb(211, 40, 220);
+
+    width: 80%;
+}
+
+#introTopTop > #introTopTopBottom {
+    background-color: rgb(51, 199, 41);
+
+    width: 80%;
+}
+
+#introTop > #introTopMiddle1 { 
+    background-color: aquamarine;
+
+    display: flex;
+    justify-content: center;
+}
+
+#introTopMiddle1 > #introTopMiddle1Left {
+    background-color: crimson;
+
+    flex-basis: 40%;
+}
+
+#introTopMiddle1 > #introTopMiddle1Right {
+    background-color: rgb(30, 128, 128);
+
+    flex-basis: 40%;
+}
+
+#introTop > #introTopMiddle2 { 
+    background-color: brown;
+
+    display: flex;
+    justify-content: center;
+}
+
+#introTopMiddle2 > #introTopMiddle2Left {
+    background-color: rgb(197, 37, 61);
+
+    flex-basis: 40%;
+}
+
+#introTopMiddle2 > #introTopMiddle2Right {
+    background-color: rgb(107, 190, 63);
+
+    flex-basis: 40%;
+}
+
+#introTop > #introTopSlide { 
+    background-color: rgb(42, 165, 81);
+
+    width: 80%;
+    margin: auto;
+}
+
+#introTop > #introTopBottom { 
+    background-color: rgb(241, 42, 148);
+
+    display: flex;
+    justify-content: center;
+}
+
+#introTopBottom > #introTopBottomLeft {
+    background-color: ghostwhite;
+
+    flex-basis: 40%;
+}
+
+#introTopBottom > #introTopBottomRight {
+    background-color: rgb(136, 212, 37);
+
+    flex-basis: 40%;
+}
+
+#main > #introBottom {
+    background-color: violet;
+}
+
+#introBottom > #introBottomPic {
+    background-color: blue;
+}
+
+#introBottom > #introBottomText {
+    background-color: rgb(81, 181, 27);
+}

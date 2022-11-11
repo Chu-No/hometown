@@ -1,0 +1,33 @@
+#footer {
+    background-color: aquamarine;
+
+    display: flex;
+    justify-content: center;
+}
+
+#footer > #footerLeft {
+    background-color: seagreen;
+
+    flex-basis: 40%;
+}
+
+#footer > #footerRight {
+    background-color: hotpink;
+
+    flex-basis: 40%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+#footerLeft > #footerLeftTop {
+    background-color: royalblue;
+}
+
+#footerLeft > #footerLeftBottom {
+    background-color: yellowgreen;
+}
+
+#footerRight > .footerRightBox {
+    background-color: gold;
+}

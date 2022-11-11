@@ -1,0 +1,25 @@
+#header {
+    background-color: antiquewhite;
+
+    display: flex;
+    justify-content: center;
+}
+
+#header > #headerLeft {
+    background-color: violet;
+
+    flex-basis: 40%;
+}
+
+#header > #headerRight {
+    background-color:blueviolet;
+
+    flex-basis: 40%;
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
+#headerRight > .headerRightBox {
+    background-color: tan;
+}
