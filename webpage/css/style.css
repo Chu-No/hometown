@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+}
+
+header{
+    height : 68px;
+    position: fixed;
+    width : 100%;
+    background-color: #FFFFFF;
+}
+
+p{
+    font-size: var(--fontSize-body);
+    line-height: var(--lineHeights-body);
+}
+
+figure{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+.headline_text{
+    margin: 0px;
+    font-size: 2em;
+}
+
+.header{
+    margin-bottom: 6.25rem;
+    margin-top: 0px;
+    height: 4.25rem;
+}
+
+
+.header_main{
+    margin : 0 auto;
+    max-width: var(--sizes-maxContent);
+    height: 100%;
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin: 0 auto;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.menu_bar{
+    position: relative;
+}
+
+.member_image{
+    display: grid;
+}
+
+.image1{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    overflow: hidden;
+}
+
+.menu{
+    flex-direction: row;
+    align-items: center;
+    gap: 3.5rem;
+    position: relative;
+    transform: none;
+    list-style: none;
+    display: flex;
+}
+
+.headline{
+    max-width: var(--sizes-maxContent);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin: 0 auto;
+    position: flex;
+    margin-bottom: 6.25rem;
+}
+
+.main_view{
+    gap: 10rem;
+    display: grid;
+}
+
+.main_grid{
+    display: grid;
+    gap: 3rem;
+    max-width: var(--sizes-maxContent);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin: 0 auto;
+    grid-template-rows: auto auto;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.main_image{
+    grid-column-start: 1;
+    grid-column-end: end;
+}
+
+.intro{
+    font-size :1.6rem;
+    line-height: 2.43rem;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-weight: bold;
+}
+
+.intro_grid{
+    gap: 2.5rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "title description";
+    max-width: var(--sizes-maxContent);
+    margin: 0px auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    display: grid;
+}
+
+.intro_sub{
+    font-size: var(--sizes-heading)
+}
+
+.team{
+    gap: 3.5rem;
+    position: relative;
+    max-width: var(--sizes-maxContent);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+
+}
+
+.tab_button{
+    display: inline-flex;
+    position: absolute;
+    top: 12.5rem;
+    
+    transition: opacity 0.2s;
+    border:none;
+    padding:0px;
+    background: none;
+    transition: opacity 0.2s;
+}
+
+.right_b{
+    left: calc(95% + 1rem);
+}
+
+.left_b{
+    right: calc(95% + 1rem);
+}
+
+
+.member{
+    overflow-x: hidden;
+}
+
+.mem{
+    display: grid;
+    grid-template-rows: repeat(2,min-content);
+    justify-content: center;
+    gap: 2rem;
+    max-width: min(var(---width), calc(50% - var(---gap) / 2));
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.member_list{
+    ---width: 35rem;
+    ---gap: 1.5rem;
+    display:flex;
+    gap: var(---gap);
+    transition: transform 0.3s ease-in-out 0s;
+    transform: translateX(max(calc(-1 * (var(---width) + var(---gap))) * var(---slide), calc(-50% * var(---slide) - var(---gap) / 2 * var(---slide))));
+}
+
+.member_list0{
+    ---slide: 0;
+}
+
+.member_list1{
+    ---slide: 2;
+}
+
+.member_list2{
+    ---slide: 4;
+}
+
+.member_intro{
+    gap:1.5rem;
+    display:grid;
+}
+
+.mem_img{
+    position:static;
+    max-width: 100%;
+    display: block;
+    width: 450px;
+    height: 300px;
+}
+
+:root{
+    --sizes-maxContent: 60rem;
+    --sizes-heading: 2.5rem;
+    --fontSize-body: 1.2rem;
+    --lineHeights-body: 1.8rem;
+
+}
