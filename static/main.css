@@ -1,188 +1,89 @@
-#main {
-    background-color: aqua;
+#main-title {
+    /* padding-top: 6.25rem; */
+
+    padding-left: 15vw;
+    padding-right: 15vw;
+
+    margin-bottom: 6.25rem;
 }
 
-#main > #introTop {
-    background-color: red;
+#main-title > h1 {
+    /* background-color: aqua; */
+
+    font-size: 3em;
 }
 
-#introTop > #introTopTop { 
-    background-color: rgb(164, 102, 9);
+#main-view {
+    /* background-color: blue; */
+    padding: 10px;
 
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+#company-text {
+    font-size: 1.5em;
+
+    line-height: 2.4rem;
+}
+
+#company-intro {
+    margin-bottom: 6.25rem;
+}
+
+#team-intro {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+
+    margin-bottom: 6.25rem;
+}
+
+#team-intro-titie {
+    /* background-color: tomato; */
+
+    flex-basis: 50%;
+}
+
+#team-intro-titie > span { 
+    font-size: 2em;
+}
+
+#team-intro-titie > h1 { 
+    font-size: 3em;
+
+    line-height: 3.4rem;
+}
+
+#team-intro-desc {
+    /* background-color: brown; */
+
+    flex-basis: 50%;
+}
+
+#team-intro-desc {
+    font-size: 1.5em;
+
+    line-height: 2rem;
+}
+
+#people-intro {
+    display: flex;
+    flex-direction: row;
     align-items: center;
+
+    gap: 3rem;
+
+    margin-bottom: 6.25rem;
 }
 
-#introTopTop > #introTopTopTop {
-    background-color: cornflowerblue;
-
-    width: 60%;
-
-    font-size: 40px;
-
-    padding-bottom: 40px;
+#left-btn {
+    flex-basis: 10%;
 }
 
-#introTopTop > #introTopTopMiddle {
-    background-color: rgb(211, 40, 220);
-
-    width: 60%;
+.person-intro {
+    flex-basis: 80%;
 }
 
-#introTopTopMiddle > img {
-    width: 100%;
-}
-
-#introTopTop > #introTopTopBottom {
-    background-color: rgb(51, 199, 41);
-
-    width: 60%;
-
-    line-height: 150%;
-
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-#introTop > #introTopMiddle1 { 
-    background-color: aquamarine;
-
-    display: flex;
-    justify-content: center;
-
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-#introTopMiddle1 > #introTopMiddle1Left {
-    background-color: crimson;
-
-    flex-basis: 30%;
-}
-
-#introTopMiddle1Left > #introTopMiddle1LeftTeam {
-    margin-bottom: 20px;
-}
-
-#introTopMiddle1Left > #introTopMiddle1LeftIntro {
-    font-size: 30px;
-}
-
-#introTopMiddle1 > #introTopMiddle1Right {
-    background-color: rgb(30, 128, 128);
-
-    flex-basis: 30%;
-
-    color: gray;
-}
-
-#introTop > #introTopMiddle2 { 
-    background-color: brown;
-
-    display: flex;
-    justify-content: center;
-}
-
-#introTopMiddle2 > #introTopMiddle2Left {
-    background-color: rgb(197, 37, 61);
-
-    flex-basis: 30%;
-}
-
-#introTopMiddle2LeftPic > img {
-    width: 100%;
-    height: 300px;
-}
-
-#introTopMiddle2LeftText > div {
-    margin-top: 10px;
-
-    color: gray;
-}
-
-#introTopMiddle2 > #introTopMiddle2Right {
-    background-color: rgb(107, 190, 63);
-
-    flex-basis: 30%;
-}
-
-#introTopMiddle2RightPic > img {
-    width: 100%;
-    height: 300px;
-}
-
-#introTopMiddle2RightText > div {
-    margin-top: 10px;
-
-    color: gray;
-}
-
-#introTop > #introTopSlide { 
-    background-color: rgb(42, 165, 81);
-
-    width: 60%;
-    margin: auto;
-
-    text-align: center;
-}
-
-#introTop > #introTopBottom { 
-    background-color: rgb(241, 42, 148);
-
-    display: flex;
-    justify-content: center;
-}
-
-#introTopBottom > #introTopBottomLeft {
-    background-color: sandybrown;
-
-    flex-basis: 30%;
-
-    padding-top: 50px;
-    padding-bottom: 100px;
-}
-
-#introTopBottomLeft > span {
-    font-size: 30px;
-}
-
-#introTopBottom > #introTopBottomRight {
-    background-color: rgb(136, 212, 37);
-
-    flex-basis: 30%;
-
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-#introTopBottomRight > img {
-    width: 100%;
-}
-
-#main > #introBottom {
-    background-color: violet;
-}
-
-#introBottom > #introBottomPic {
-    background-color: blue;
-}
-
-#introBottomPic > img {
-    width: 100%;
-}
-
-#introBottom > #introBottomText {
-    background-color: rgb(81, 181, 27);
-
-    padding-top: 50px;
-    padding-bottom: 100px;
-
-    line-height: 200%;
-
-    text-align: center;
-}
-
-#introBottomText > span {
-    font-size: 30px;
+#right-btn {
+    flex-basis: 10%;
 }

@@ -1,46 +1,35 @@
-#footer {
-    background-color: aquamarine;
+footer {
+    /* background-color: aquamarine; */
+
+    padding-left: 15vw;
+    padding-right: 15vw;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-#footer > #footerLeft {
-    background-color: seagreen;
+#info {
+    /* background-color: seagreen; */
 
     flex-basis: 40%;
 }
 
-#footer > #footerRight {
-    background-color: hotpink;
+#sns { 
+    /* background-color: hotpink; */
 
     flex-basis: 40%;
 
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
+    gap: 20px;
 }
 
-#footerLeft > #footerLeftTop {
-    background-color: royalblue;
-
+#question {
     margin-bottom: 10px;
 }
 
-#footerLeftTop > span {
-    margin-right: 10px;
-}
-
-#footerLeft > #footerLeftBottom {
-    background-color: yellowgreen;
-
+#address > div {
     color: gray;
-}
-
-#footerLeftBottom > div {
-    margin-bottom: 10px;
-}
-
-#footerRight > span {
-    margin-left: 10px;
 }
