@@ -54,6 +54,24 @@ figure{
     position: relative;
 }
 
+.alt-control{
+    position: absolute;
+    left:0;
+    bottom:0;
+    width: 100%;
+    height:0;
+    text-align:left;
+}
+
+.alt-bar{
+    border-color: red;
+    display:block;
+    overflow: hidden;
+    height: 0;
+    border-top-width: 3px;
+    border-style: solid;
+}
+
 .member_image{
     display: grid;
 }
