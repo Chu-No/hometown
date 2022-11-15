@@ -1,0 +1,46 @@
+#footer {
+    background-color: aquamarine;
+
+    display: flex;
+    justify-content: center;
+}
+
+#footer > #footerLeft {
+    background-color: seagreen;
+
+    flex-basis: 40%;
+}
+
+#footer > #footerRight {
+    background-color: hotpink;
+
+    flex-basis: 40%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#footerLeft > #footerLeftTop {
+    background-color: royalblue;
+
+    margin-bottom: 10px;
+}
+
+#footerLeftTop > span {
+    margin-right: 10px;
+}
+
+#footerLeft > #footerLeftBottom {
+    background-color: yellowgreen;
+
+    color: gray;
+}
+
+#footerLeftBottom > div {
+    margin-bottom: 10px;
+}
+
+#footerRight > span {
+    margin-left: 10px;
+}

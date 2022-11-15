@@ -1,0 +1,89 @@
+#main-title {
+    /* padding-top: 6.25rem; */
+
+    padding-left: 15vw;
+    padding-right: 15vw;
+
+    margin-bottom: 6.25rem;
+}
+
+#main-title > h1 {
+    /* background-color: aqua; */
+
+    font-size: 3em;
+}
+
+#main-view {
+    /* background-color: blue; */
+    padding: 10px;
+
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+#company-text {
+    font-size: 1.5em;
+
+    line-height: 2.4rem;
+}
+
+#company-intro {
+    margin-bottom: 6.25rem;
+}
+
+#team-intro {
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 6.25rem;
+}
+
+#team-intro-titie {
+    /* background-color: tomato; */
+
+    flex-basis: 50%;
+}
+
+#team-intro-titie > span { 
+    font-size: 2em;
+}
+
+#team-intro-titie > h1 { 
+    font-size: 3em;
+
+    line-height: 3.4rem;
+}
+
+#team-intro-desc {
+    /* background-color: brown; */
+
+    flex-basis: 50%;
+}
+
+#team-intro-desc {
+    font-size: 1.5em;
+
+    line-height: 2rem;
+}
+
+#people-intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 3rem;
+
+    margin-bottom: 6.25rem;
+}
+
+#left-btn {
+    flex-basis: 10%;
+}
+
+.person-intro {
+    flex-basis: 80%;
+}
+
+#right-btn {
+    flex-basis: 10%;
+}
